@@ -33,6 +33,7 @@ Use target-journal instructions first. If the user requests a complete figure-ri
 - Do not include workflow notes in the manuscript.
 - Do not include claim-boundary labels or prompt traces.
 - Do not include internal checks inside figure captions.
+- Do not include literature-search logs, full-text intake logs, or QC tables inside the formal manuscript body; keep them in a separate QC note.
 - Put figure captions below figures.
 - Cite figures in the text where they are discussed.
 - Keep citations close to supported claims.

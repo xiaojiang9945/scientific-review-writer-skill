@@ -38,6 +38,16 @@ Use 6-8 keywords by default for full reviews. Use the target journal's count whe
 - Avoid paper-by-paper listing unless the section is explicitly historical.
 - Use transitions that explain why the next section follows.
 
+## Discussion And Outlook
+
+For full reviews, the discussion or outlook should normally develop at least three focused points rather than one generic closing paragraph:
+
+- what the synthesis changes conceptually,
+- what the strongest remaining limitations or contradictions are,
+- what experiments, datasets, benchmarks, interventions, or translation steps would resolve them.
+
+Each point should name a testable bottleneck or decision axis.
+
 ## Language Quality
 
 Avoid:

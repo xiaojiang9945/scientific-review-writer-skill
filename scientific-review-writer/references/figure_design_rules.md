@@ -7,9 +7,11 @@ Use these rules when planning or generating figures for a review manuscript.
 - White or very pale background.
 - Readable labels.
 - Consistent font sizes and line weights.
-- restrained, accessible palette.
+- Restrained, accessible palette.
 - Captions carry interpretation; in-figure text stays short.
 - Avoid decorative effects that obscure data or mechanism.
+- Use fonts and line weights that remain readable after export; a figure that only works at full screen is not publication-ready.
+- Keep multipanel spacing tight but non-overlapping.
 
 ## Publication Feel
 
@@ -32,4 +34,4 @@ Avoid generic icons, unsupported molecular pathways, decorative gradients, and v
 - Are labels legible after export?
 - Does it match the actual user data or literature evidence?
 - Are all file paths relative and stable?
-
+- For maps or spatial plots, were boundaries, projections, and coordinates generated from a real data source or package?

@@ -36,6 +36,8 @@ When user data exists, choose the figure from the data structure:
 - Multivariate structure: PCA/UMAP, clustered heatmap, correlation matrix, contour/surface only when justified.
 - Mechanism: schematic only after the data and literature support the model.
 
+For maps and spatial summaries, prefer a real geospatial package or verified boundary/source data when practical. Do not hand-draw geographic shapes for manuscript figures unless the figure is explicitly conceptual.
+
 ## QC
 
 - Labels readable.
@@ -45,4 +47,3 @@ When user data exists, choose the figure from the data structure:
 - Color palette is accessible and publication-appropriate.
 - All figures exist at stable relative paths.
 - DOCX/PDF exports preserve aspect ratio and embedding.
-

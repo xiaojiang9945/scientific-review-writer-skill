@@ -1,4 +1,4 @@
-﻿# Preserving Spatial Intent: Layered Control of the Plant Cell Division Plane
+# Preserving Spatial Intent: Layered Control of the Plant Cell Division Plane
 
 ## Abstract
 Plant cells cannot rearrange after division in the way many animal cells can; each new wall fixes daughter-cell adjacency, mechanical coupling, and future growth trajectories. Division-plane control is therefore a central morphogenetic decision rather than a late consequence of mitosis. Work across *Arabidopsis thaliana*, maize, tobacco cells, moss, and computational systems now supports a layered model: cell geometry and tissue mechanics nominate possible walls; developmental polarity and fate programs bias or override the geometric default; the preprophase band (PPB) and cortical division zone (CDZ) preserve a cortical address after the visible PPB disappears; and the phragmoplast-cell plate apparatus executes, transports, and corrects the final insertion site. This review synthesizes classic and recent evidence for that spatial handoff. It separates plane selection from cortical memory and cytokinetic execution, places symmetric and asymmetric divisions in the same decision framework, and highlights how recent work on POK2 polarization, myosin recruitment, membrane lipids, vesicle traffic, and four-dimensional imaging has sharpened the execution layer. The main unresolved problem is not whether one structure “determines” the division plane, but how geometry, mechanics, polarity, and cytoskeletal transport exchange information with enough fidelity to preserve spatial intent across mitosis.
@@ -128,7 +128,7 @@ The immediate opportunity is to turn the handoff model into an assay design. A m
 7. Can four-dimensional imaging and mechanical perturbation predict the next division plane before PPB formation?
 8. What validation threshold is needed before a division-plane mechanism can be linked to crop architecture or breeding-relevant organ traits?
 
-## Table 1. Evidence layers used in this review
+**Table 1. Evidence layers used in this review**
 
 | Evidence layer | Representative systems | Main inference | Limitation |
 |---|---|---|---|
@@ -137,7 +137,7 @@ The immediate opportunity is to turn the handoff model into an assay design. A m
 | Asymmetric division systems | Stomatal lineage, root stem cells, lateral roots | Shows how polarity and fate cues bias geometric defaults | Modules are not always shared across tissues |
 | Crop and comparative evidence | Maize TAN1, moss MAP65, cereal organ contexts | Tests conservation and highlights application gaps | Direct mechanistic crop evidence remains sparse |
 
-## Table 2. A modular model of division-plane control
+**Table 2. A modular model of division-plane control**
 
 | Module | Core question | Representative factors or evidence | Working interpretation |
 |---|---|---|---|
@@ -147,53 +147,53 @@ The immediate opportunity is to turn the handoff model into an assay design. A m
 | Polarity override | When is the default plane biased? | BASL, POLAR, FEZ/SMB, SHR/SCR-related networks, lateral-root mechanics | Generates formative or asymmetric divisions |
 
 ## References
-1. Livanos P, Müller S. Division Plane Establishment and Cytokinesis. *Annual Review of Plant Biology*. 2019;70:239-267. https://doi.org/10.1146/annurev-arplant-050718-100444
-2. Rasmussen CG, Humphries JA, Smith LG. Determination of Symmetric and Asymmetric Division Planes in Plant Cells. *Annual Review of Plant Biology*. 2011;62:387-409. https://doi.org/10.1146/annurev-arplant-042110-103802
-3. Rasmussen CG, Wright AJ, Müller S. The role of the cytoskeleton and associated proteins in determination of the plant cell division plane. *The Plant Journal*. 2013;75:258-269. https://doi.org/10.1111/tpj.12177
-4. Smith LG. Plant cell division: building walls in the right places. *Nature Reviews Molecular Cell Biology*. 2001;2:33-39. https://doi.org/10.1038/35048050
-5. Bouchez D, Uyttewaal M, Pastuglia M. Spatiotemporal regulation of plant cell division. *Current Opinion in Plant Biology*. 2024;80:102530. https://doi.org/10.1016/j.pbi.2024.102530
-6. Hazelwood OS, Orr JM, Ashraf MA. Nuclear positioning and cell division site specification in plants. *Journal of Experimental Botany*. 2025. https://doi.org/10.1093/jxb/eraf241
-7. Besson S, Dumais J. Universal rule for the symmetric division of plant cells. *Proceedings of the National Academy of Sciences USA*. 2011;108:6294-6299. https://doi.org/10.1073/pnas.1011866108
-8. Louveaux M, Julien JD, Mirabet V, Boudaoud A, Hamant O. Cell division plane orientation based on tensile stress in *Arabidopsis thaliana*. *Proceedings of the National Academy of Sciences USA*. 2016;113:E4294-E4303. https://doi.org/10.1073/pnas.1600677113
-9. Moukhtar J, Trubuil A, Belcram K, Legland D, Khadir Z, Urbain A, Palauqui JC, Andrey P. Cell geometry determines symmetric and asymmetric division plane selection in Arabidopsis early embryos. *PLoS Computational Biology*. 2019;15:e1006771. https://doi.org/10.1371/journal.pcbi.1006771
-10. Martínez PF, Allsman LA, Brakke KA, Hoyt C, Hayes J, Liang H, Neher R, Smith LG. Predicting Division Planes of Three-Dimensional Cells by Soap-Film Minimization. *The Plant Cell*. 2018;30:2255-2266. https://doi.org/10.1105/tpc.18.00401
-11. Yoshida S, Barbier de Reuille P, Lane B, Bassel GW, Prusinkiewicz P, Smith RS, Weijers D. Genetic Control of Plant Development by Overriding a Geometric Division Rule. *Developmental Cell*. 2014;29:75-87. https://doi.org/10.1016/j.devcel.2014.02.002
-12. Schaefer E, Belcram K, Uyttewaal M, Duroc Y, Goussot M, Legland D, Laruelle E, de Tauzia-Moreau ML, Pastuglia M, Bouchez D. The preprophase band of microtubules controls the robustness of division orientation in plants. *Science*. 2017;356:186-189. https://doi.org/10.1126/science.aal3016
-13. Lipka E, Gadeyne A, Stöckle D, Zimmermann S, De Jaeger G, Ehrhardt DW, Kirik V, Van Damme D, Müller S. The Phragmoplast-Orienting Kinesin-12 Class Proteins Translate the Positional Information of the Preprophase Band to Establish the Cortical Division Zone in *Arabidopsis thaliana*. *The Plant Cell*. 2014;26:2617-2632. https://doi.org/10.1105/tpc.114.124933
-14. Müller S, Han S, Smith LG. Two Kinesins Are Involved in the Spatial Control of Cytokinesis in *Arabidopsis thaliana*. *Current Biology*. 2006;16:888-894. https://doi.org/10.1016/j.cub.2006.03.034
-15. Livanos P, Kriechbaum C, Remers S, Herrmann A, Müller S. Kinesin-12 POK2 polarization is a prerequisite for a fully functional division site and aids cell plate positioning. *Nature Communications*. 2025. https://doi.org/10.1038/s41467-025-58852-w
-16. Leong SY, Muras L, Fischer BSJ, Jang S, Gurskaya A, Chugh M, Pyrpassopoulos S, Drechsler H, Schäffer E. The tail domain of the plant kinesin-12 POK2 is a versatile interaction hub. *Journal of Cell Science*. 2025. https://doi.org/10.1242/jcs.263785
-17. Stöckle D, Herrmann A, Lipka E, Lauster T, Gavidia R, Zimmermann S, Müller S. Putative RopGAPs impact division plane selection and interact with kinesin-12 POK1. *Nature Plants*. 2016;2:16120. https://doi.org/10.1038/nplants.2016.120
-18. Walker KL, Müller S, Moss D, Ehrhardt DW, Smith LG. Arabidopsis TANGLED Identifies the Division Plane throughout Mitosis and Cytokinesis. *Current Biology*. 2007;17:1827-1836. https://doi.org/10.1016/j.cub.2007.09.063
-19. Rasmussen CG, Sun B, Smith LG. Tangled localization at the cortical division site of plant cells occurs by several mechanisms. *Journal of Cell Science*. 2010;124:270-279. https://doi.org/10.1242/jcs.073676
-20. Martínez PF, Dixit R, Balkunde R, Zhang AL, O’Leary SE, Brakke KA, Rasmussen CG. TANGLED1 mediates microtubule interactions that may promote division plane positioning in maize. *Journal of Cell Biology*. 2020;219:e201907184. https://doi.org/10.1083/jcb.201907184
-21. Uyehara AN, Diep BN, Allsman LA, Gayer SG, Martinez SE, Rasmussen CG. *De novo* TANGLED1 recruitment from the phragmoplast to aberrant cell plate fusion sites in maize. *Journal of Cell Science*. 2024;137:jcs262097. https://doi.org/10.1242/jcs.262097
-22. Wu SZ, Bezanilla M. Myosin VIII associates with microtubule ends and together with actin plays a role in guiding plant cell division. *eLife*. 2014;3:e03498. https://doi.org/10.7554/eLife.03498
-23. Huang CH, Peng F, Lee YRJ, Liu B. The microtubular preprophase band recruits Myosin XI to the cortical division site to guide phragmoplast expansion during plant cytokinesis. *Developmental Cell*. 2024;59:1586-1600.e6. https://doi.org/10.1016/j.devcel.2024.05.015
-24. Kumari P, Dahiya P, Livanos P, Zergiebel L, Kölling M, Poeschl Y, Stamm G, Hermann A, Abel S, Müller S, et al. IQ67 DOMAIN proteins facilitate preprophase band formation and division-plane orientation. *Nature Plants*. 2021;7:739-747. https://doi.org/10.1038/s41477-021-00923-z
-25. Ambrose C, Allard JF, Cytrynbaum EN, Wasteneys GO. A CLASP-modulated cell edge barrier mechanism drives cell-wide cortical microtubule organization in Arabidopsis. *Nature Communications*. 2011;2:430. https://doi.org/10.1038/ncomms1444
-26. Ambrose C, Shoji T, Kotzer AM, Pighin JA, Wasteneys GO. The *Arabidopsis CLASP* Gene Encodes a Microtubule-Associated Protein Involved in Cell Expansion and Division. *The Plant Cell*. 2007;19:2763-2775. https://doi.org/10.1105/tpc.107.053777
-27. Azimzadeh J, Nacry P, Christodoulidou A, Drevensek S, Camilleri C, Amiour N, Parcy F, Pastuglia M, Bouchez D. *Arabidopsis* TONNEAU1 Proteins Are Essential for Preprophase Band Formation and Interact with Centrin. *The Plant Cell*. 2008;20:2146-2159. https://doi.org/10.1105/tpc.107.056812
-28. Camilleri C, Azimzadeh J, Pastuglia M, Bellini C, Grandjean O, Bouchez D. The Arabidopsis TONNEAU2 Gene Encodes a Putative Novel Protein Phosphatase 2A Regulatory Subunit Essential for the Control of the Cortical Cytoskeleton. *The Plant Cell*. 2002;14:833-845. https://doi.org/10.1105/tpc.010402
-29. Kosetsu K, de Keijzer J, Janson ME, Goshima G. MICROTUBULE-ASSOCIATED PROTEIN65 Is Essential for Maintenance of Phragmoplast Bipolarity and Formation of the Cell Plate in *Physcomitrella patens*. *The Plant Cell*. 2013;25:4479-4492. https://doi.org/10.1105/tpc.113.117432
-30. Müller S, Smertenko A, Wagner V, Heinrich M, Hussey PJ, Hauser MT. The Plant Microtubule-Associated Protein AtMAP65-3/PLE Is Essential for Cytokinetic Phragmoplast Function. *Current Biology*. 2004;14:412-417. https://doi.org/10.1016/j.cub.2004.02.032
-31. Murata T, Sano T, Sasabe M, Nonaka S, Higashiyama T, Hasezawa S, Machida Y, Hasebe M. Mechanism of microtubule array expansion in the cytokinetic phragmoplast. *Nature Communications*. 2013;4:1967. https://doi.org/10.1038/ncomms2967
-32. Staehelin LA, Hepler PK. Cytokinesis in Higher Plants. *Cell*. 1996;84:821-824. https://doi.org/10.1016/S0092-8674(00)81060-0
-33. Richter S, Kientz M, Brumm S, Nielsen ME, Park M, Gavidia R, Krause C, Voss U, Beckmann H, Mayer U, et al. Delivery of endocytosed proteins to the cell-division plane requires change of pathway from recycling to secretion. *eLife*. 2014;3:e02131. https://doi.org/10.7554/eLife.02131
-34. Yamada M, Matsuyama HJ, Takeda-Kamiya N, Sato M, Toyooka K, et al. Class II kinesin-12 facilitates cell plate formation by transporting cell plate materials in the phragmoplast. *Nature Plants*. 2025. https://doi.org/10.1038/s41477-025-01909-x
-35. Luo Y, Tian YF, Liu HR, Yang WC. Phosphatidylinositides regulate the cell plate morphology transition during cytokinesis in Arabidopsis. *Nature Communications*. 2025. https://doi.org/10.1038/s41467-025-62067-4
-36. Xu Z, Zang J, Zhang X, Zheng Q, Li Y, Field N, Fiserova J, Hua B, Qu X, Kriechbaumer V, Deeks MJ, Hussey PJ, Wang P. The ER-PM interaction is essential for cytokinesis and recruits the actin cytoskeleton through the SCAR/WAVE complex. *Proceedings of the National Academy of Sciences USA*. 2025. https://doi.org/10.1073/pnas.2416927122
-37. Shi Y, Luo C, Xiang Y, Qian D. Rab GTPases, tethers, and SNAREs work together to regulate *Arabidopsis* cell plate formation. *Frontiers in Plant Science*. 2023;14:1120841. https://doi.org/10.3389/fpls.2023.1120841
-38. Sinclair R, Wang M, Jawaid MZ, Longkumer T, Aaron J, Rossetti B, Wait E, McDonald K, Cox D, Heddleston J, Wilkop T, Drakakaki G. Four-dimensional quantitative analysis of cell plate development in Arabidopsis using lattice light sheet microscopy identifies robust transition points between growth phases. *Journal of Experimental Botany*. 2024. https://doi.org/10.1093/jxb/erae091
-39. Serra L, Robinson S. Plant cell divisions: variations from the shortest symmetric path. *Biochemical Society Transactions*. 2020;48:2825-2834. https://doi.org/10.1042/BST20200529
-40. Yi P, Goshima G. Division site determination during asymmetric cell division in plants. *The Plant Cell*. 2022;34:2129-2142. https://doi.org/10.1093/plcell/koac069
-41. Dong J, MacAlister CA, Bergmann DC. BASL Controls Asymmetric Cell Division in Arabidopsis. *Cell*. 2009;137:1320-1330. https://doi.org/10.1016/j.cell.2009.04.018
-42. Houbaert A, Zhang C, Tiwari M, Wang K, de Marcos A, Savatin DV, Urs MJ, Zhiponova M, Gudesblat GE, Vanhoutte I, et al. POLAR-guided signalling complex assembly and localization drive asymmetric cell division. *Nature*. 2018;563:574-578. https://doi.org/10.1038/s41586-018-0714-x
-43. Willemsen V, Bauch M, Bennett T, Campilho A, Wolkenfelt H, Xu J, Haseloff J, Scheres B. The NAC Domain Transcription Factors FEZ and SOMBRERO Control the Orientation of Cell Division Plane in Arabidopsis Root Stem Cells. *Developmental Cell*. 2008;15:913-922. https://doi.org/10.1016/j.devcel.2008.09.019
-44. Welch D, Hassan H, Blilou I, Immink RGH, Heidstra R, Scheres B. *Arabidopsis* JACKDAW and MAGPIE zinc finger proteins delimit asymmetric cell division and stabilize tissue boundaries by restricting SHORT-ROOT action. *Genes & Development*. 2007;21:2196-2204. https://doi.org/10.1101/gad.440307
-45. Lucas M, Kenobi K, von Wangenheim D, Voß U, Swarup K, De Smet I, Van Damme D, Lawrence T, Péret B, Moscardi E, et al. Lateral root morphogenesis is dependent on the mechanical properties of the overlying tissues. *Proceedings of the National Academy of Sciences USA*. 2013;110:5229-5234. https://doi.org/10.1073/pnas.1210807110
-46. Winter Z, Bellande K, Vermeer JEM. Divided by fate: The interplay between division orientation and cell shape underlying lateral root initiation in Arabidopsis. *Current Opinion in Plant Biology*. 2023;74:102370. https://doi.org/10.1016/j.pbi.2023.102370
-47. von Wangenheim D, Fangerau J, Schmitz A, Smith RS, Leitte H, Stelzer EHK, Maizel A. Rules and Self-Organizing Properties of Post-embryonic Plant Organ Cell Division Patterns. *Current Biology*. 2016;26:439-449. https://doi.org/10.1016/j.cub.2015.12.047
-48. Jackson MDB, Duran-Nebreda S, Kierzkowski D, Strauss S, Xu H, Landrein B, Hamant O, Smith RS, Johnston IG, Bassel GW. Global Topological Order Emerges through Local Mechanical Control of Cell Divisions in the Arabidopsis Shoot Apical Meristem. *Cell Systems*. 2019;8:53-65.e3. https://doi.org/10.1016/j.cels.2018.12.009
-49. Sampathkumar A, Krupinski P, Wightman R, Milani P, Berquand A, Boudaoud A, Hamant O, Jönsson H, Meyerowitz EM. Subcellular and supracellular mechanical stress prescribes cytoskeleton behavior in Arabidopsis cotyledon pavement cells. *eLife*. 2014;3:e01967. https://doi.org/10.7554/eLife.01967
+1. Livanos, P. & Müller, S. Division Plane Establishment and Cytokinesis. *Annual Review of Plant Biology* **70**, 239-267 (2019).
+2. Rasmussen, C. G., Humphries, J. A. & Smith, L. G. Determination of Symmetric and Asymmetric Division Planes in Plant Cells. *Annual Review of Plant Biology* **62**, 387-409 (2011).
+3. Rasmussen, C. G., Wright, A. J. & Müller, S. The role of the cytoskeleton and associated proteins in determination of the plant cell division plane. *The Plant Journal* **75**, 258-269 (2013).
+4. Smith, L. G. Plant cell division: building walls in the right places. *Nature Reviews Molecular Cell Biology* **2**, 33-39 (2001).
+5. Bouchez, D., Uyttewaal, M. & Pastuglia, M. Spatiotemporal regulation of plant cell division. *Current Opinion in Plant Biology* **80**, 102530 (2024).
+6. Hazelwood, O. S., Orr, J. M. & Ashraf, M. A. Nuclear positioning and cell division site specification in plants. *Journal of Experimental Botany* https://doi.org/10.1093/jxb/eraf241 (2025).
+7. Besson, S. & Dumais, J. Universal rule for the symmetric division of plant cells. *Proceedings of the National Academy of Sciences USA* **108**, 6294-6299 (2011).
+8. Louveaux, M., Julien, J. D., Mirabet, V., Boudaoud, A. & Hamant, O. Cell division plane orientation based on tensile stress in *Arabidopsis thaliana*. *Proceedings of the National Academy of Sciences USA* **113**, E4294-E4303 (2016).
+9. Moukhtar, J. et al. Cell geometry determines symmetric and asymmetric division plane selection in Arabidopsis early embryos. *PLoS Computational Biology* **15**, e1006771 (2019).
+10. Martínez, P. F. et al. Predicting Division Planes of Three-Dimensional Cells by Soap-Film Minimization. *The Plant Cell* **30**, 2255-2266 (2018).
+11. Yoshida, S. et al. Genetic Control of Plant Development by Overriding a Geometric Division Rule. *Developmental Cell* **29**, 75-87 (2014).
+12. Schaefer, E. et al. The preprophase band of microtubules controls the robustness of division orientation in plants. *Science* **356**, 186-189 (2017).
+13. Lipka, E. et al. The Phragmoplast-Orienting Kinesin-12 Class Proteins Translate the Positional Information of the Preprophase Band to Establish the Cortical Division Zone in *Arabidopsis thaliana*. *The Plant Cell* **26**, 2617-2632 (2014).
+14. Müller, S., Han, S. & Smith, L. G. Two Kinesins Are Involved in the Spatial Control of Cytokinesis in *Arabidopsis thaliana*. *Current Biology* **16**, 888-894 (2006).
+15. Livanos, P., Kriechbaum, C., Remers, S., Herrmann, A. & Müller, S. Kinesin-12 POK2 polarization is a prerequisite for a fully functional division site and aids cell plate positioning. *Nature Communications* https://doi.org/10.1038/s41467-025-58852-w (2025).
+16. Leong, S. Y. et al. The tail domain of the plant kinesin-12 POK2 is a versatile interaction hub. *Journal of Cell Science* https://doi.org/10.1242/jcs.263785 (2025).
+17. Stöckle, D. et al. Putative RopGAPs impact division plane selection and interact with kinesin-12 POK1. *Nature Plants* **2**, 16120 (2016).
+18. Walker, K. L., Müller, S., Moss, D., Ehrhardt, D. W. & Smith, L. G. Arabidopsis TANGLED Identifies the Division Plane throughout Mitosis and Cytokinesis. *Current Biology* **17**, 1827-1836 (2007).
+19. Rasmussen, C. G., Sun, B. & Smith, L. G. Tangled localization at the cortical division site of plant cells occurs by several mechanisms. *Journal of Cell Science* **124**, 270-279 (2010).
+20. Martínez, P. F. et al. TANGLED1 mediates microtubule interactions that may promote division plane positioning in maize. *Journal of Cell Biology* **219**, e201907184 (2020).
+21. Uyehara, A. N. et al. *De novo* TANGLED1 recruitment from the phragmoplast to aberrant cell plate fusion sites in maize. *Journal of Cell Science* **137**, jcs262097 (2024).
+22. Wu, S. Z. & Bezanilla, M. Myosin VIII associates with microtubule ends and together with actin plays a role in guiding plant cell division. *eLife* **3**, e03498 (2014).
+23. Huang, C. H., Peng, F., Lee, Y. R. J. & Liu, B. The microtubular preprophase band recruits Myosin XI to the cortical division site to guide phragmoplast expansion during plant cytokinesis. *Developmental Cell* **59**, 1586-1600.e6 (2024).
+24. Kumari, P. et al. IQ67 DOMAIN proteins facilitate preprophase band formation and division-plane orientation. *Nature Plants* **7**, 739-747 (2021).
+25. Ambrose, C., Allard, J. F., Cytrynbaum, E. N. & Wasteneys, G. O. A CLASP-modulated cell edge barrier mechanism drives cell-wide cortical microtubule organization in Arabidopsis. *Nature Communications* **2**, 430 (2011).
+26. Ambrose, C., Shoji, T., Kotzer, A. M., Pighin, J. A. & Wasteneys, G. O. The *Arabidopsis CLASP* Gene Encodes a Microtubule-Associated Protein Involved in Cell Expansion and Division. *The Plant Cell* **19**, 2763-2775 (2007).
+27. Azimzadeh, J. et al. *Arabidopsis* TONNEAU1 Proteins Are Essential for Preprophase Band Formation and Interact with Centrin. *The Plant Cell* **20**, 2146-2159 (2008).
+28. Camilleri, C. et al. The Arabidopsis TONNEAU2 Gene Encodes a Putative Novel Protein Phosphatase 2A Regulatory Subunit Essential for the Control of the Cortical Cytoskeleton. *The Plant Cell* **14**, 833-845 (2002).
+29. Kosetsu, K., de Keijzer, J., Janson, M. E. & Goshima, G. MICROTUBULE-ASSOCIATED PROTEIN65 Is Essential for Maintenance of Phragmoplast Bipolarity and Formation of the Cell Plate in *Physcomitrella patens*. *The Plant Cell* **25**, 4479-4492 (2013).
+30. Müller, S. et al. The Plant Microtubule-Associated Protein AtMAP65-3/PLE Is Essential for Cytokinetic Phragmoplast Function. *Current Biology* **14**, 412-417 (2004).
+31. Murata, T. et al. Mechanism of microtubule array expansion in the cytokinetic phragmoplast. *Nature Communications* **4**, 1967 (2013).
+32. Staehelin, L. A. & Hepler, P. K. Cytokinesis in Higher Plants. *Cell* **84**, 821-824 (1996).
+33. Richter, S. et al. Delivery of endocytosed proteins to the cell-division plane requires change of pathway from recycling to secretion. *eLife* **3**, e02131 (2014).
+34. Yamada, M. et al. Class II kinesin-12 facilitates cell plate formation by transporting cell plate materials in the phragmoplast. *Nature Plants* https://doi.org/10.1038/s41477-025-01909-x (2025).
+35. Luo, Y., Tian, Y. F., Liu, H. R. & Yang, W. C. Phosphatidylinositides regulate the cell plate morphology transition during cytokinesis in Arabidopsis. *Nature Communications* https://doi.org/10.1038/s41467-025-62067-4 (2025).
+36. Xu, Z. et al. The ER-PM interaction is essential for cytokinesis and recruits the actin cytoskeleton through the SCAR/WAVE complex. *Proceedings of the National Academy of Sciences USA* https://doi.org/10.1073/pnas.2416927122 (2025).
+37. Shi, Y., Luo, C., Xiang, Y. & Qian, D. Rab GTPases, tethers, and SNAREs work together to regulate *Arabidopsis* cell plate formation. *Frontiers in Plant Science* **14**, 1120841 (2023).
+38. Sinclair, R. et al. Four-dimensional quantitative analysis of cell plate development in Arabidopsis using lattice light sheet microscopy identifies robust transition points between growth phases. *Journal of Experimental Botany* https://doi.org/10.1093/jxb/erae091 (2024).
+39. Serra, L. & Robinson, S. Plant cell divisions: variations from the shortest symmetric path. *Biochemical Society Transactions* **48**, 2825-2834 (2020).
+40. Yi, P. & Goshima, G. Division site determination during asymmetric cell division in plants. *The Plant Cell* **34**, 2129-2142 (2022).
+41. Dong, J., MacAlister, C. A. & Bergmann, D. C. BASL Controls Asymmetric Cell Division in Arabidopsis. *Cell* **137**, 1320-1330 (2009).
+42. Houbaert, A. et al. POLAR-guided signalling complex assembly and localization drive asymmetric cell division. *Nature* **563**, 574-578 (2018).
+43. Willemsen, V. et al. The NAC Domain Transcription Factors FEZ and SOMBRERO Control the Orientation of Cell Division Plane in Arabidopsis Root Stem Cells. *Developmental Cell* **15**, 913-922 (2008).
+44. Welch, D. et al. *Arabidopsis* JACKDAW and MAGPIE zinc finger proteins delimit asymmetric cell division and stabilize tissue boundaries by restricting SHORT-ROOT action. *Genes & Development* **21**, 2196-2204 (2007).
+45. Lucas, M. et al. Lateral root morphogenesis is dependent on the mechanical properties of the overlying tissues. *Proceedings of the National Academy of Sciences USA* **110**, 5229-5234 (2013).
+46. Winter, Z., Bellande, K. & Vermeer, J. E. M. Divided by fate: The interplay between division orientation and cell shape underlying lateral root initiation in Arabidopsis. *Current Opinion in Plant Biology* **74**, 102370 (2023).
+47. von Wangenheim, D. et al. Rules and Self-Organizing Properties of Post-embryonic Plant Organ Cell Division Patterns. *Current Biology* **26**, 439-449 (2016).
+48. Jackson, M. D. B. et al. Global Topological Order Emerges through Local Mechanical Control of Cell Divisions in the Arabidopsis Shoot Apical Meristem. *Cell Systems* **8**, 53-65.e3 (2019).
+49. Sampathkumar, A. et al. Subcellular and supracellular mechanical stress prescribes cytoskeleton behavior in Arabidopsis cotyledon pavement cells. *eLife* **3**, e01967 (2014).
 

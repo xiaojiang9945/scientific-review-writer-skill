@@ -13,8 +13,8 @@ This QC record is sanitized for repository validation. It records quality checks
 ## Output Scale
 
 - Language: English.
-- Abstract: 183 words.
-- Body length including tables: 7,128 words in the source QC.
+- Abstract: 178 words by repository validator.
+- Body length before references: 6,649 words by repository validator.
 - Figures: 6 linked figures.
 - References: 58.
 - Outstanding Questions: 8.
@@ -63,6 +63,7 @@ This QC record is sanitized for repository validation. It records quality checks
 ### Round 5: Citation, Privacy, And Release
 
 - Confirmed 58 references.
+- Confirmed Nature-family reference normalization for the demo output.
 - Confirmed no missing cited reference numbers in the source QC.
 - Confirmed demo excludes raw full texts and large literature exports.
 - Confirmed repository remains private during iteration.

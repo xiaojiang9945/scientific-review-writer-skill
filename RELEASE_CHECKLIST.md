@@ -23,6 +23,7 @@ Use this checklist before any public release.
 - [ ] Demo manuscript has abstract, keywords, figure citations, captions, and at least 58 references.
 - [ ] Demo has 6 figures and 6,000-9,000 body words.
 - [ ] Demo references are normalized to the chosen target style.
+- [ ] For Nature-family style, no `year;volume:pages` entries remain.
 - [ ] Demo figures are manuscript-linked, not decorative.
 - [ ] Demo does not include raw full-text archives or large literature exports.
 

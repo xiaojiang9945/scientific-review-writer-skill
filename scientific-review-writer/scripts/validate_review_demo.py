@@ -142,9 +142,29 @@ def main() -> int:
         errors.append(f"Expected exactly 6 figure captions, found {caption_count}.")
 
     refs_section = section_between(output, r"^##\s+References\s*$", r"\Z")
-    reference_count = len(re.findall(r"^\d+\.\s+", refs_section, re.MULTILINE))
+    reference_numbers = [int(n) for n in re.findall(r"^(\d+)\.\s+", refs_section, re.MULTILINE)]
+    reference_count = len(reference_numbers)
     if reference_count < 58:
         errors.append(f"Expected at least 58 references, found {reference_count}.")
+    if reference_numbers and reference_numbers != list(range(1, reference_count + 1)):
+        errors.append("Reference numbers are not contiguous from 1.")
+
+    old_reference_style = re.findall(r"^\d+\..+\*\.\s+\d{4};", refs_section, re.MULTILINE)
+    if old_reference_style:
+        errors.append("References still contain old year;volume:pages formatting.")
+
+    standard_nature_refs = re.findall(
+        r"^\d+\.\s+.+\.\s+\*[^*\n]+\*\s+\*\*[^*\n]+\*\*,\s+.+\(\d{4}\)\.$",
+        refs_section,
+        re.MULTILINE,
+    )
+    online_first_refs = re.findall(
+        r"^\d+\.\s+.+\.\s+\*[^*\n]+\*\s+https://doi\.org/\S+\s+\(\d{4}\)\.$",
+        refs_section,
+        re.MULTILINE,
+    )
+    if reference_count and len(standard_nature_refs) + len(online_first_refs) != reference_count:
+        errors.append("References are not consistently normalized to the repository's Nature-family style.")
 
     body = section_between(output, r"^\*\*Keywords:.*$", r"^##\s+References\s*$")
     body_words = word_count(body)
@@ -158,6 +178,8 @@ def main() -> int:
     for phrase in FORMAL_MANUSCRIPT_BANS:
         if phrase in lower_output:
             errors.append(f"Formal manuscript contains banned workflow phrase: {phrase}")
+    if "\ufffd" in output:
+        errors.append("Formal manuscript contains Unicode replacement characters.")
 
     for round_no in range(1, 6):
         if f"Round {round_no}" not in qc:

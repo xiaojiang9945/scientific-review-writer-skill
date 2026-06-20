@@ -18,6 +18,8 @@
 - Numbering follows first appearance unless target style differs.
 - Core references have checked authors, title, journal, year, volume, pages/article number, and DOI when needed.
 - Target style is applied consistently.
+- Nature-family outputs do not mix Vancouver-style `year;volume:pages` formatting with Nature-style `volume, pages (year)` formatting.
+- Online-first references without stable volume/page metadata keep a DOI or full URL plus year.
 
 ## Manuscript
 
@@ -33,4 +35,3 @@
 - Figure and table vocabulary matches the manuscript.
 - Labels are readable and correctly spelled.
 - Figures and tables do not introduce unsupported claims.
-

@@ -16,6 +16,7 @@ Reviewed `examples/cytoskeleton-review/output/cytoskeleton_review_demo.md` for t
 - Figures: 6 linked figures, all repository-relative.
 - Captions: 6 captions, each placed below the figure.
 - References: 58 numbered references counted after the References heading.
+- References normalized to a Nature-family numbered style: surname-initial authors, `et al.` for long author lists, bold volume, page or article number, and year in parentheses.
 - No absolute local paths in the demo output.
 - No mojibake or replacement-character hits in the demo output.
 - No workflow notes, claim-boundary labels, prompt traces, or internal QC notes in the formal manuscript.
@@ -28,9 +29,9 @@ Reviewed `examples/cytoskeleton-review/output/cytoskeleton_review_demo.md` for t
 - Changed table titles from `## Table` headings to bold table titles so tables are not misread as main sections.
 - Updated the default full-review word range from "about 7,000 words" to 6,000-9,000 words.
 - Updated the validator to reject `## Table` headings and enforce the 6,000-9,000 word range.
+- Normalized the demo reference list from `year;volume:pages` formatting to a Nature-family numbered style.
 
 ## Remaining Release Notes
 
-- The reference list is consistent and numbered, but final public release should normalize references to the user's chosen target style.
-- The demo topic is plant cell division because it is the current exemplar, but the skill itself is now general scientific-review writing.
-
+- If a target journal is selected later, rerun reference normalization against that journal's current author instructions.
+- The demo topic is plant cell division because it is the current exemplar, but the skill itself is general scientific-review writing.

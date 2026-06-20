@@ -1,7 +1,6 @@
 ---
 name: scientific-review-writer
 description: Use when planning, drafting, revising, polishing, or quality-controlling scientific review articles across disciplines. Triggers include literature review, review manuscript, narrative review, mechanistic review, scholarly review, citation audit, figure-rich review, DOCX-ready review, Nature-style references, multi-round QC, and publication-ready review writing.
-license: CC-BY-NC-4.0
 ---
 
 # Scientific Review Writer

@@ -14,9 +14,9 @@ This demo uses the latest cell-division/cytoskeleton review standard from the lo
 - English review manuscript by default.
 - Abstract of about 180-220 words.
 - Keywords below the abstract.
-- About 7,000 body words.
+- Body length within the 6,000-9,000 word full-review range.
 - Six manuscript-linked figures with captions below images.
-- At least 58 references.
+- At least 58 references normalized to a Nature-family numbered style.
 - Five-round QC.
 
 ## What Is Excluded
@@ -25,4 +25,3 @@ This demo uses the latest cell-division/cytoskeleton review standard from the lo
 - Large literature metadata exports.
 - Local absolute paths.
 - Private workspace notes not needed for evaluating the demo.
-
