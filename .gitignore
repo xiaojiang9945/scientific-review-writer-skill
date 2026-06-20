@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.env
+.env.*
+dist/
+*.skill
+fulltext/
+raw_fulltext/
+*.xml
+*.parsed.txt
+*.tmp
+*.log
+

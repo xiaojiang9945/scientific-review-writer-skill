@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: Plant Review Writer Skill
+message: Cite this repository if you use the skill in non-commercial research or teaching.
+type: software
+license: CC-BY-NC-4.0
+version: 0.1.0-private
+repository-code: https://github.com/xiaojiang9945/plant-review-writer-skill
+authors:
+  - name: Repository owner
+
