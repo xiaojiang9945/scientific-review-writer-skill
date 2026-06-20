@@ -1,13 +1,12 @@
 # Repository Instructions
 
-This repository packages the `scientific-review-writer` Codex skill. The `v1.0.0` release package may remain private until the owner changes repository visibility.
+This repository packages the public `scientific-review-writer` Codex skill.
 
 ## Release Discipline
 
-- Keep the repository private until the owner explicitly approves public visibility.
 - Do not tag or describe private iterations as `1.0.0`.
 - Use `v1.0.0` only for an approved release package.
-- Before changing visibility to public, run the validation script and review the demo manually.
+- Before each public release, run the validation script and review the demo manually.
 
 ## Privacy And Redistribution
 

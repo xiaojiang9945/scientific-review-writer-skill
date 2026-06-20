@@ -21,4 +21,4 @@ Initial release package for the `scientific-review-writer` Codex skill.
 
 ### Visibility
 
-The repository can remain private after this release package. Changing repository visibility to public remains a separate owner decision.
+The repository was made public after the release checks passed.

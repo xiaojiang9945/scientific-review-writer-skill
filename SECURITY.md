@@ -11,4 +11,4 @@ Please report security or privacy concerns by opening a private issue or contact
 
 ## Demo Policy
 
-The demo is included in the private release package. Before changing repository visibility to public, the owner must confirm that the demo manuscript, figures, citations, and QC notes can be redistributed.
+The demo is included in the public release package. Report any redistribution, privacy, citation, or figure-rights concern by opening an issue or contacting the repository owner.

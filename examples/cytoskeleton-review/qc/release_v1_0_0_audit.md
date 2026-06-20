@@ -44,4 +44,4 @@ python <skill-creator>/scripts/package_skill.py scientific-review-writer dist
 ## Release Decision
 
 - Release package version: `v1.0.0`.
-- Repository visibility: unchanged; remains private unless the owner changes it later.
+- Repository visibility: public after owner approval.
