@@ -11,15 +11,17 @@ Use this checklist before any public release.
 
 ## Skill Validation
 
-- [ ] `python plant-review-writer/scripts/validate_review_demo.py`
-- [ ] `python <skill-creator>/scripts/quick_validate.py plant-review-writer`
+- [ ] `python scientific-review-writer/scripts/validate_review_demo.py`
+- [ ] `python <skill-creator>/scripts/quick_validate.py scientific-review-writer`
 - [ ] Local package builds successfully.
 - [ ] Skill can be installed and triggered in a fresh Codex session.
 
 ## Demo
 
 - [ ] Demo source, output, figures, and QC file are present.
-- [ ] Demo manuscript has abstract, 5-7 keywords, figure citations, captions, and at least 30 references.
+- [ ] Demo manuscript is English by default.
+- [ ] Demo manuscript has abstract, keywords, figure citations, captions, and at least 58 references.
+- [ ] Demo has 6 figures and about 7,000 body words.
 - [ ] Demo references are normalized to the chosen target style.
 - [ ] Demo figures are manuscript-linked, not decorative.
 - [ ] Demo does not include raw full-text archives or large literature exports.
@@ -35,6 +37,7 @@ Use this checklist before any public release.
 
 - [ ] No claim-boundary labels or intermediate-generation notes in the manuscript.
 - [ ] No reviewer-response phrasing in the manuscript.
-- [ ] No unsupported broad claims such as "comprehensive" unless target-specific and justified.
+- [ ] No unsupported broad claims.
 - [ ] Citation and reference lists match.
 - [ ] Figures and captions match the text.
+

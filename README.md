@@ -1,10 +1,8 @@
-# Plant Review Writer Skill
+# Scientific Review Writer Skill
 
-Private iteration repository for the existing `plant-review-writer` Codex skill.
+Private iteration repository for the `scientific-review-writer` Codex skill.
 
-This repository is a sanitized publication export of the local `plant-review-writer` skill, not a new replacement skill. It keeps the original review-writing workflow and adds release-oriented safeguards, demo validation, Nature-family reference guidance, and five-round QC.
-
-The skill helps draft, revise, and quality-control figure-rich plant-science review manuscripts. It is designed for review articles that need a real literature intake step, evidence-ranked synthesis, citation integrity, publication-style figures, and multi-round manuscript QC.
+This repository is the generalized successor to the original local review-writing skill. It is no longer limited to plant science. The skill now targets scientific review manuscripts across disciplines, with English as the default output language.
 
 ## Current Status
 
@@ -13,49 +11,48 @@ The skill helps draft, revise, and quality-control figure-rich plant-science rev
 - Target public release tag: `v1.0.0`, only after manual approval.
 - License intent: non-commercial use with attribution, within lawful and ethical research use.
 
-## What The Skill Enforces
+## What Changed
 
-- Style learning from at least 200 relevant high-level review records before full manuscript drafting.
-- Topic literature learning from at least 200 topic-relevant records before full manuscript drafting.
-- A smaller core evidence set chosen from the 200+ topic records for close reading and citation.
-- Nearby citation placement at the supported knowledge point.
-- Figure planning from the written section, not decorative topic art.
-- Five QC rounds covering literature/citations, structure, language, figures/tables, and final privacy/export checks.
-- Formal manuscripts that exclude workflow notes, claim-boundary labels, and intermediate generation explanations.
+- Generalized from plant-specific review writing to scientific review writing.
+- Default output language is English.
+- Full-review default scale now follows the latest cytoskeleton/cell-division review case: about 7,000 body words, 6 figures, at least 58 references, and 5 QC rounds.
+- Added staged pipeline design, checkpoint gates, claim-evidence integrity, optional style calibration, writing quality checks, and figure verification.
+- Added Codex-oriented validation and repository safeguards.
 
-## Relation To The Original Local Skill
+## External Lessons Adapted
 
-The canonical local skill remains `plant-review-writer`. This repository is the private GitHub export prepared from that original skill after removing private project briefs, raw full-text archives, large redistributed corpus tables, and local paths. See `docs/original-skill-basis.md`.
+The skill borrows workflow ideas, not text, from:
+
+- `Imbad0202/academic-research-skills`: staged research-to-write pipeline, integrity gates, style calibration, writing quality checks, and figure verification.
+- OpenAI Codex Best Practices: reusable skills, practical `AGENTS.md`, scoped workflows, validation, and review-before-accept loops.
+
+See `scientific-review-writer/references/codex_and_ars_lessons.md`.
 
 ## Demo
 
-The demo uses the plant kinetochore review from the local `Seed_Vigor_Review` project:
+The demo uses the latest cell-division/cytoskeleton review standard:
 
-- Source draft: `examples/plant-kinetochore-review/input/source_review_en_strict.md`
-- Demo output: `examples/plant-kinetochore-review/output/plant_kinetochore_review_demo.md`
-- Figures: `examples/plant-kinetochore-review/output/figures/`
-- Demo QC: `examples/plant-kinetochore-review/qc/demo_qc_public.md`
+- Source draft: `examples/cytoskeleton-review/input/source_review_en_final.md`
+- Demo output: `examples/cytoskeleton-review/output/cytoskeleton_review_demo.md`
+- Figures: `examples/cytoskeleton-review/output/figures/`
+- Demo QC: `examples/cytoskeleton-review/qc/demo_qc_public.md`
 
-The demo intentionally does not include raw downloaded full texts, local workspace paths, private credentials, or large literature metadata exports.
+The demo intentionally excludes raw downloaded full texts, large literature metadata exports, local absolute paths, private credentials, and private workspace notes not needed to evaluate the skill.
 
 ## Local Validation
 
 Run from the repository root:
 
 ```bash
-python plant-review-writer/scripts/validate_review_demo.py
-python <skill-creator>/scripts/quick_validate.py plant-review-writer
+python scientific-review-writer/scripts/validate_review_demo.py
+python <skill-creator>/scripts/quick_validate.py scientific-review-writer
 ```
 
 Package locally for Codex testing:
 
 ```bash
-python <skill-creator>/scripts/package_skill.py plant-review-writer dist
+python <skill-creator>/scripts/package_skill.py scientific-review-writer dist
 ```
-
-## Install For Local Testing
-
-Copy the `plant-review-writer/` directory into your Codex skills directory, then start a new Codex session and ask for a plant-science review manuscript or revision.
 
 ## Public Release Checklist
 
@@ -63,6 +60,7 @@ Before changing this repository to public:
 
 - Confirm the demo manuscript and generated figures may be shared.
 - Confirm references are normalized to the chosen target style.
-- Confirm no local paths, account names, credentials, or private project notes remain.
+- Confirm no local paths, account names, credentials, raw full texts, or private project notes remain.
 - Run the validation script and the skill quick validator.
 - Create a clean `v1.0.0` tag only after approval.
+

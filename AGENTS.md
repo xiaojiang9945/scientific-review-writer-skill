@@ -1,6 +1,6 @@
 # Repository Instructions
 
-This repository packages the `plant-review-writer` Codex skill for private review before any public release.
+This repository packages the `scientific-review-writer` Codex skill for private review before public release.
 
 ## Release Discipline
 
@@ -12,12 +12,13 @@ This repository packages the `plant-review-writer` Codex skill for private revie
 ## Privacy And Redistribution
 
 - Do not commit local absolute paths, account names, access tokens, API keys, private notes, or raw downloaded full texts.
-- Demo files may include user-owned drafts and generated figures while the repository is private. Reconfirm rights before making the repository public.
+- Demo files may include owner-approved drafts and generated figures while the repository is private. Reconfirm rights before making the repository public.
 - Do not redistribute paywalled PDFs, subscription-only full text, or large third-party abstract corpora in this repository.
 
 ## Skill Editing
 
-- Keep `plant-review-writer/SKILL.md` concise and operational.
-- Put detailed rules in `plant-review-writer/references/`.
+- Keep `scientific-review-writer/SKILL.md` concise and operational.
+- Put detailed rules in `scientific-review-writer/references/`.
 - Keep demo outputs free of workflow narration, claim-boundary labels, reviewer-response language, and intermediate generation notes.
+- Keep validation scripts current when demo paths or default manuscript scale change.
 
