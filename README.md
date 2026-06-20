@@ -15,7 +15,7 @@ This repository is the generalized successor to the original local review-writin
 
 - Generalized from plant-specific review writing to scientific review writing.
 - Default output language is English.
-- Full-review default scale now follows the latest cytoskeleton/cell-division review case: about 7,000 body words, 6 figures, at least 58 references, and 5 QC rounds.
+- Full-review default scale now follows the latest cytoskeleton/cell-division review case: 6,000-9,000 body words, 6 figures, at least 58 references, and 5 QC rounds.
 - Added concise title rules and a hard keyword/full-text learning gate before drafting.
 - Added a 5-8 theme distillation gate before the outline.
 - Added staged pipeline design, checkpoint gates, claim-evidence integrity, optional style calibration, writing quality checks, and figure verification.

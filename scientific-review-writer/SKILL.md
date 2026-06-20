@@ -28,7 +28,7 @@ The default output language is English. Use another language only when the user 
    - English manuscript.
    - Abstract about 180-220 words.
    - 6-8 keywords.
-   - Body about 7,000 words before references.
+   - Body about 6,000-9,000 words before references.
    - 6 main figures.
    - At least 58 references.
    - 8 outstanding questions for future work when appropriate.

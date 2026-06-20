@@ -9,7 +9,7 @@ Use target-journal instructions first. If the user requests a complete figure-ri
 | Language | English |
 | Abstract | 180-220 words |
 | Keywords | 6-8 |
-| Body before references | about 7,000 words |
+| Body before references | 6,000-9,000 words |
 | Main figures | 6 |
 | References | at least 58 |
 | Outstanding questions | about 8 |
@@ -48,4 +48,3 @@ When creating Word output:
 - Check caption numbering and reference heading.
 - Use readable body text and smaller reference text.
 - Inspect the final document before delivery when possible.
-

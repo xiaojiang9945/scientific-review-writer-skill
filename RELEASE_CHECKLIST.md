@@ -21,7 +21,7 @@ Use this checklist before any public release.
 - [ ] Demo source, output, figures, and QC file are present.
 - [ ] Demo manuscript is English by default.
 - [ ] Demo manuscript has abstract, keywords, figure citations, captions, and at least 58 references.
-- [ ] Demo has 6 figures and about 7,000 body words.
+- [ ] Demo has 6 figures and 6,000-9,000 body words.
 - [ ] Demo references are normalized to the chosen target style.
 - [ ] Demo figures are manuscript-linked, not decorative.
 - [ ] Demo does not include raw full-text archives or large literature exports.
@@ -40,4 +40,3 @@ Use this checklist before any public release.
 - [ ] No unsupported broad claims.
 - [ ] Citation and reference lists match.
 - [ ] Figures and captions match the text.
-

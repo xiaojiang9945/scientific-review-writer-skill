@@ -1,4 +1,4 @@
-﻿# Preserving Spatial Intent: Canonical and Exceptional Control of the Plant Cell Division Plane
+# Preserving Spatial Intent: Canonical and Exceptional Control of the Plant Cell Division Plane
 
 ## Abstract
 Plant cells cannot rearrange after division in the way many animal cells can; each new wall fixes daughter-cell adjacency, mechanical coupling, and future growth trajectories. Division-plane control is therefore a central morphogenetic decision rather than a late consequence of mitosis. Work across *Arabidopsis thaliana*, maize, tobacco cells, moss, and computational systems now supports a layered model: cell geometry and tissue mechanics nominate possible walls; developmental polarity and fate programs bias or override the geometric default; the preprophase band (PPB) and cortical division zone (CDZ) preserve a cortical address after the visible PPB disappears; and the phragmoplast-cell plate apparatus executes, transports, and corrects the final insertion site. Yet the canonical somatic model is not sufficient. Syncytial endosperm cellularization, pollen and zygote asymmetry, stomatal lineage divisions, root and cambial periclinal divisions, and PPB-poor cytokinetic contexts expose alternative ways to position walls. This review synthesizes classic and recent evidence for both canonical and exceptional division modes. The central unresolved problem is how geometry, mechanics, polarity, cytoskeletal memory, and membrane transport preserve spatial intent when the upstream site-selection logic changes across tissues.
@@ -11,6 +11,15 @@ Plant development turns a local cytokinetic event into a durable tissue decision
 This review develops one thesis: plant division-plane determination is a spatial handoff rather than a linear pathway. A candidate plane is nominated by cell shape, nuclear position, and tissue-scale forces; developmental polarity can bias or veto that candidate; the PPB and CDZ encode the selected site at the cortex; and the phragmoplast-cell plate apparatus executes the decision while retaining some capacity for correction. Nuclear positioning and cell-division site specification are part of this handoff because the nucleus often marks the cytoplasmic geometry through which the future division plane will pass, but nuclear position alone does not explain how a cortical memory persists after PPB disassembly [6].
 
 The evidence hierarchy used here gives priority to direct mechanistic work in *Arabidopsis*, maize, tobacco BY-2 cells, and *Physcomitrium patens*. Computational geometry, mechanical models, and organ-scale studies are used when they explain what direct perturbations cannot isolate. Crop extrapolation is kept cautious: maize provides strong comparative evidence for TAN1-dependent division-site control, whereas most rice, wheat, and barley links remain based on homologs, cellular phenotypes, or organ-level inference rather than direct division-plane mechanisms.
+
+**Table 1. Evidence layers used in this review**
+
+| Evidence layer | Representative systems | Main inference | Limitation |
+|---|---|---|---|
+| Direct mechanistic genetics and imaging | *Arabidopsis*, maize, tobacco BY-2, *Physcomitrium* | Identifies PPB/CDZ, TAN/POK, phragmoplast, membrane and polarity modules | System-specific cell size and tissue context shape phenotypes |
+| Quantitative geometry and mechanics | Embryos, meristems, pavement cells, computational cell surfaces | Defines default candidate planes and tissue-scale bias | Requires perturbation to prove causality |
+| Asymmetric division systems | Stomatal lineage, root stem cells, lateral roots | Shows how polarity and fate cues bias geometric defaults | Modules are not always shared across tissues |
+| Crop and comparative evidence | Maize TAN1, moss MAP65, cereal organ contexts | Tests conservation and highlights application gaps | Direct mechanistic crop evidence remains sparse |
 
 The expanded literature and open full-text learning used for this version also changed the emphasis of the review. Rather than organizing the topic as a historical progression from PPB discovery to cytokinesis, the manuscript treats division-plane control as an information-preservation problem. A plant cell must preserve spatial intent across a mitotic interval in which cell shape, microtubule arrays, membrane trafficking routes, and cortical protein composition all change. This framing gives equal weight to three questions: how the site is chosen, how it is remembered, and how it is used. It also provides a guardrail against two common overstatements: that the PPB alone determines the plane, or that final wall position alone reveals the original decision.
 
@@ -26,6 +35,15 @@ This distinction also explains why no single structure should be treated as the 
 This relay model sets the standard for evidence. A final wall angle by itself is an insufficient readout because it collapses several events into one endpoint. A stronger experiment follows the same cell through nuclear positioning, PPB appearance, PPB narrowing or broadening, CDZ protein persistence, phragmoplast expansion, cell plate maturation, and wall fusion. If only the final wall is scored, then a defect in early plane choice can be mistaken for a defect in cytokinesis, and a membrane-traffic defect can be misread as a fate-specification phenotype. The most valuable studies therefore combine live imaging, genetics, and quantitative geometry so that the causal layer of the error is visible.
 
 This standard also helps evaluate review claims. A claim about “division-plane establishment” should be supported by evidence before or during PPB/CDZ formation. A claim about “cell plate positioning” should be supported by phragmoplast trajectory, CDZ targeting, or wall-fusion data. A claim about “asymmetric division” should show unequal daughter outcomes or fate differences, not only an oblique wall. These distinctions sound semantic, but they prevent the field from pooling citations at the end of paragraphs that actually support different biological processes.
+
+**Table 2. A modular model of division-plane control**
+
+| Module | Core question | Representative factors or evidence | Working interpretation |
+|---|---|---|---|
+| Candidate-plane nomination | Which planes are plausible before mitosis? | Cell geometry, nuclear position, tensile stress, organ topology | Provides default options, not a deterministic law |
+| Cortical memory | How is the selected site preserved? | PPB, CDZ, POK1/2, TAN, RopGAPs, IQD, CLASP, TON/FASS | Stores spatial intent after PPB breakdown |
+| Execution and correction | How does the cell plate reach the target? | MAP65, kinesin-12, myosins, vesicle traffic, phosphoinositides, actin | Builds, guides and corrects the new wall |
+| Polarity override | When is the default plane biased? | BASL, POLAR, FEZ/SMB, SHR/SCR-related networks, lateral-root mechanics | Generates formative or asymmetric divisions |
 
 ## Geometry and mechanics nominate a default plane
 Geometry provides the simplest prior for division-plane selection. In many symmetric divisions, plant cells tend to build short, area-minimizing walls that pass through the cellular interior in a way that produces relatively balanced daughters. Besson and Dumais converted this idea into a quantitative rule for symmetric plant cell division, showing that many observed planes can be understood as minimum-area partitions rather than arbitrary orientations [7]. Tissue mechanics changes the meaning of that default. In *Arabidopsis*, division-plane orientation can be associated with tensile stress, linking local wall mechanics to the direction in which a cell divides [8]. This evidence supports a model in which a cell does not solve a private geometric problem. It divides inside a mechanically coupled tissue, where local wall tension, neighbor geometry, and organ-level growth anisotropy can bias which candidate plane is most stable or developmentally useful.
@@ -144,7 +162,7 @@ This exceptional mode changes the review's central model. In endosperm, “candi
 
 This taxonomy also suggests how to compare special divisions without flattening them. The first axis is cellular architecture: single walled cell, polarized gametophyte cell, multinucleate syncytium, or layered tissue. The second axis is the source of bias: geometry, mechanics, polarity, fate, nuclear spacing, or developmental timing. The third axis is the memory device: PPB/CDZ, polarized cortical domain, nuclear cytoplasmic domain, tissue boundary, or phragmoplast-associated feedback. The fourth axis is the output: equal daughters, unequal daughters, cellularization compartments, new tissue layers, or lineage boundaries. Mapping each division type onto these axes gives a more useful synthesis than listing tissues one by one.
 
-## Table 3. Special plant division modes and the site-selection problem they expose
+**Table 3. Special plant division modes and the site-selection problem they expose**
 
 | Division mode | Site-selection problem | Main cues | What differs from canonical somatic PPB-CDZ cytokinesis |
 |---|---|---|---|
@@ -170,24 +188,6 @@ The immediate opportunity is to turn the handoff model into an assay design. A m
 6. Which division-plane mechanisms are conserved in grasses, and which are specific to *Arabidopsis* cell size, tissue geometry, or developmental timing?
 7. Can four-dimensional imaging and mechanical perturbation predict the next division plane before PPB formation?
 8. What validation threshold is needed before a division-plane mechanism can be linked to crop architecture or breeding-relevant organ traits?
-
-## Table 1. Evidence layers used in this review
-
-| Evidence layer | Representative systems | Main inference | Limitation |
-|---|---|---|---|
-| Direct mechanistic genetics and imaging | *Arabidopsis*, maize, tobacco BY-2, *Physcomitrium* | Identifies PPB/CDZ, TAN/POK, phragmoplast, membrane and polarity modules | System-specific cell size and tissue context shape phenotypes |
-| Quantitative geometry and mechanics | Embryos, meristems, pavement cells, computational cell surfaces | Defines default candidate planes and tissue-scale bias | Requires perturbation to prove causality |
-| Asymmetric division systems | Stomatal lineage, root stem cells, lateral roots | Shows how polarity and fate cues bias geometric defaults | Modules are not always shared across tissues |
-| Crop and comparative evidence | Maize TAN1, moss MAP65, cereal organ contexts | Tests conservation and highlights application gaps | Direct mechanistic crop evidence remains sparse |
-
-## Table 2. A modular model of division-plane control
-
-| Module | Core question | Representative factors or evidence | Working interpretation |
-|---|---|---|---|
-| Candidate-plane nomination | Which planes are plausible before mitosis? | Cell geometry, nuclear position, tensile stress, organ topology | Provides default options, not a deterministic law |
-| Cortical memory | How is the selected site preserved? | PPB, CDZ, POK1/2, TAN, RopGAPs, IQD, CLASP, TON/FASS | Stores spatial intent after PPB breakdown |
-| Execution and correction | How does the cell plate reach the target? | MAP65, kinesin-12, myosins, vesicle traffic, phosphoinositides, actin | Builds, guides and corrects the new wall |
-| Polarity override | When is the default plane biased? | BASL, POLAR, FEZ/SMB, SHR/SCR-related networks, lateral-root mechanics | Generates formative or asymmetric divisions |
 
 ## References
 1. Livanos P, Müller S. Division Plane Establishment and Cytokinesis. *Annual Review of Plant Biology*. 2019;70:239-267. https://doi.org/10.1146/annurev-arplant-050718-100444

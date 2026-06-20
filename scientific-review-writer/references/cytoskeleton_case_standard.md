@@ -23,4 +23,4 @@ This standard is extracted from the latest cell-division/cytoskeleton review dem
 - Add a dedicated section for exceptions when they change the model.
 - Use figures as conceptual checkpoints: framework, constraints, memory, execution, asymmetric cases, and exceptional modes.
 - Keep the formal manuscript free of QC narration and generation-process text.
-
+- Use 6,000-9,000 words as the normal range for a 5-8 theme full review unless the target journal specifies otherwise.

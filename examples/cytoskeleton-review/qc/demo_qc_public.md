@@ -57,6 +57,8 @@ This QC record is sanitized for repository validation. It records quality checks
 - Confirmed six captions appear below figures.
 - Confirmed figure links resolve to repository-relative paths.
 - Source DOCX QC confirmed six embedded media files.
+- Confirmed table titles are not formatted as second-level section headings.
+- Confirmed Table 1 and Table 2 are placed in the relevant body sections rather than after Outstanding Questions.
 
 ### Round 5: Citation, Privacy, And Release
 

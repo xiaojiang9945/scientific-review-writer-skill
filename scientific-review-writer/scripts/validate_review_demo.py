@@ -148,8 +148,11 @@ def main() -> int:
 
     body = section_between(output, r"^\*\*Keywords:.*$", r"^##\s+References\s*$")
     body_words = word_count(body)
-    if body_words < 6500 or body_words > 7800:
+    if body_words < 6000 or body_words > 9000:
         errors.append(f"Body word count should match cytoskeleton-case scale: {body_words} words.")
+
+    if re.search(r"^##\s+Table\s+\d+", output, re.MULTILINE):
+        errors.append("Tables should not be formatted as second-level section headings.")
 
     lower_output = output.lower()
     for phrase in FORMAL_MANUSCRIPT_BANS:
