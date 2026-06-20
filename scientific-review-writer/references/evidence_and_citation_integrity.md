@@ -6,11 +6,14 @@ For a full review, document:
 
 - Style-learning records: at least 200 relevant high-level review records or approved exemplars.
 - Topic-learning records: at least 200 topic-relevant literature records before drafting.
-- For deep reviews, open full-text reading where lawful and available; do not claim full-text reading of inaccessible sources.
+- Keyword families: core topic, synonyms, methods, systems, mechanisms, controversies, applications, and recent terminology.
+- Full-text learning: mandatory for deep reviews where lawful and available. Record full-text IDs, count, and access limits.
 - Query families and sources searched.
 - Inclusion and exclusion logic.
 - Core evidence set selected for citation.
 - Access boundary.
+
+Do not begin main drafting until the topic-learning and full-text-learning log exists, unless the user explicitly supplies a verified source corpus and asks to proceed.
 
 ## Evidence Hierarchy
 
@@ -41,4 +44,3 @@ Before or during drafting, maintain a working map:
 - Numbered citations follow order of first appearance unless the target style requires otherwise.
 - Metadata for core references is checked: authors, title, journal, year, volume, pages or article number, DOI when needed.
 - Citations are not pooled at paragraph ends unless the paragraph is explicitly synthesizing a group of studies.
-

@@ -84,6 +84,7 @@ def main() -> int:
         SKILL_DIR / "references" / "review_output_standard.md",
         SKILL_DIR / "references" / "cytoskeleton_case_standard.md",
         SKILL_DIR / "references" / "evidence_and_citation_integrity.md",
+        SKILL_DIR / "references" / "theme_distillation.md",
         SKILL_DIR / "references" / "style_calibration_and_quality.md",
         SKILL_DIR / "references" / "figure_and_table_integration.md",
         SKILL_DIR / "references" / "nature_reference_style.md",
@@ -105,6 +106,11 @@ def main() -> int:
 
     if not re.search(r"^#\s+.+", output, re.MULTILINE):
         errors.append("Demo output is missing a title heading.")
+    else:
+        title = re.search(r"^#\s+(.+)", output, re.MULTILINE).group(1)
+        title_words = word_count(title)
+        if title_words > 16:
+            errors.append(f"Title should be concise and topic-forward; found {title_words} words.")
 
     abstract = section_between(output, r"^##\s+Abstract\s*$", r"^\*\*Keywords")
     abstract_words = word_count(abstract)
@@ -154,6 +160,13 @@ def main() -> int:
         if f"Round {round_no}" not in qc:
             errors.append(f"QC file missing Round {round_no}.")
 
+    theme_count = len(re.findall(r"Theme\s+\d+:", qc))
+    if theme_count < 5 or theme_count > 8:
+        errors.append(f"Expected 5-8 distilled themes in demo QC, found {theme_count}.")
+
+    if "full-text" not in qc.lower():
+        errors.append("QC file must document full-text learning or access boundary.")
+
     privacy_hits = scan_privacy()
     if privacy_hits:
         errors.extend([f"Privacy scan hit: {hit}" for hit in privacy_hits[:20]])
@@ -163,7 +176,9 @@ def main() -> int:
     summary = {
         "status": "passed" if not errors else "failed",
         "abstract_words": abstract_words,
+        "title_words": title_words if "title_words" in locals() else None,
         "body_words": body_words,
+        "themes": theme_count,
         "keywords": keyword_count,
         "figures": len(figure_links),
         "captions": caption_count,

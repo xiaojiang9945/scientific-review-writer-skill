@@ -6,6 +6,8 @@ Run these checks before delivering a substantial scientific review manuscript or
 
 - Style-learning and topic-learning gates documented.
 - Search sources, query families, inclusion logic, and access limits recorded.
+- Keyword families and available full-text learning log documented before drafting.
+- 5-8 synthesis themes documented before full drafting.
 - Core evidence set selected.
 - Claim-evidence map checked.
 - Direct and indirect evidence boundaries preserved.
@@ -13,6 +15,8 @@ Run these checks before delivering a substantial scientific review manuscript or
 ## Round 2: Structure And Thesis
 
 - Title, abstract, keywords, headings, figures, tables, outlook, and outstanding questions point to the same thesis.
+- Title is concise and topic-forward.
+- Main sections map back to 5-8 synthesis themes.
 - Section order is logical and not merely chronological unless a historical review is requested.
 - The manuscript scope matches the title.
 - Exceptions are integrated when they alter the model.
@@ -39,4 +43,3 @@ Run these checks before delivering a substantial scientific review manuscript or
 - Target reference style applied.
 - No local absolute paths, account names, credentials, private notes, raw full-text archives, or release-misleading version labels.
 - Public release remains blocked until owner approval.
-

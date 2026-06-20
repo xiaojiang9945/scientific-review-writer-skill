@@ -19,6 +19,17 @@ This QC record is sanitized for repository validation. It records quality checks
 - References: 58.
 - Outstanding Questions: 8.
 
+## Theme Distillation Gate
+
+- Theme 1: Division-plane control as a spatial-intent preservation problem.
+- Theme 2: Candidate-plane selection through geometry, nuclear position, and tissue mechanics.
+- Theme 3: PPB-CDZ cortical memory as the address system that persists through mitosis.
+- Theme 4: Phragmoplast execution as an active correction and transport process.
+- Theme 5: Actin, microtubules, membrane traffic, and motors as an integrated cytoskeletal module.
+- Theme 6: Polarity-biased asymmetric divisions as controlled deviations from geometric default.
+- Theme 7: Comparative systems and crop-facing gaps as evidence-boundary tests.
+- Theme 8: Exceptional division modes as a stress test for the canonical model.
+
 ## Five-Round QC
 
 ### Round 1: Literature And Evidence Integrity
@@ -53,4 +64,3 @@ This QC record is sanitized for repository validation. It records quality checks
 - Confirmed no missing cited reference numbers in the source QC.
 - Confirmed demo excludes raw full texts and large literature exports.
 - Confirmed repository remains private during iteration.
-

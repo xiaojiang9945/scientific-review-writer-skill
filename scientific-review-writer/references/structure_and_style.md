@@ -4,6 +4,16 @@
 
 Write the review manuscript in English unless the user explicitly asks for another language.
 
+## Title
+
+The title should be compressed and topic-forward.
+
+- Usually 8-16 words.
+- Name the core topic directly.
+- Add a synthesis angle, tension, or mechanism when possible.
+- Avoid vague nouns such as "overview", "progress", "advances", or "comprehensive review" unless the target journal or user requires them.
+- Use a subtitle only when it adds a sharper frame.
+
 ## Abstract
 
 A strong abstract should include:
@@ -44,4 +54,3 @@ Prefer evidence-ranked verbs:
 - Direct evidence: shows, demonstrates, quantifies, maps, resolves.
 - Strong but incomplete evidence: supports, suggests, is consistent with, nominates.
 - Synthesis: couples, constrains, buffers, coordinates, tunes, partitions, rewires.
-
