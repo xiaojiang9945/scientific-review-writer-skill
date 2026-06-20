@@ -8,7 +8,7 @@ This standard is extracted from the latest cell-division/cytoskeleton review dem
 - Topic: division-plane control, cortical memory, microtubule/actin coordination, and exceptional cytokinesis modes.
 - Language: English.
 - Abstract length: 178 words by repository validator.
-- Body length before references: 6,649 words by repository validator.
+- Body length before references: 6,610 words by repository validator.
 - Main figures: 6.
 - Embedded DOCX media in source project: 6.
 - References: 58.

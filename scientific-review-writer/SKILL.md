@@ -101,7 +101,7 @@ Use scripts when they improve repeatability:
 
 ```bash
 node scripts/build_review_docx.js --md <manuscript.md> --out <manuscript.docx>
-python scripts/audit_review_docx.py --docx <manuscript.docx> --expect-figures <n> --min-references <n>
+python scripts/audit_review_docx.py --docx <manuscript.docx> --expect-figures <n> --expect-tables <n> --min-references <n>
 python scripts/validate_review_demo.py
 ```
 

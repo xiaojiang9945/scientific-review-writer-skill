@@ -17,8 +17,8 @@ DEMO_INPUT = DEMO_DIR / "input" / "source_review_en_final.md"
 DEMO_QC = DEMO_DIR / "qc" / "demo_qc_public.md"
 
 PRIVACY_PATTERNS = [
-    re.compile(r"[A-Za-z]:\\"),
-    re.compile(r"(?i)\bUsers\\"),
+    re.compile(r"(?<![A-Za-z])[A-Za-z]:[\\/]{1,2}"),
+    re.compile(r"(?i)\bUsers[\\/]{1,2}"),
     re.compile(r"(?i)\bOneDrive\b"),
     re.compile(r"ghp_[A-Za-z0-9_]+"),
     re.compile(r"sk-[A-Za-z0-9_-]{20,}"),
@@ -34,6 +34,10 @@ FORMAL_MANUSCRIPT_BANS = [
     "intermediate generation",
     "workflow note",
     "as requested",
+    "open full-text learning",
+    "used for this version",
+    "source qc",
+    "this review develops",
 ]
 
 

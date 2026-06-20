@@ -11,5 +11,4 @@ Please report security or privacy concerns by opening a private issue or contact
 
 ## Demo Policy
 
-The demo is included for private iteration. Before a public release, the owner must confirm that the demo manuscript, figures, citations, and QC notes can be redistributed.
-
+The demo is included in the private release package. Before changing repository visibility to public, the owner must confirm that the demo manuscript, figures, citations, and QC notes can be redistributed.

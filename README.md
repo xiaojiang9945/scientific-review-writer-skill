@@ -1,14 +1,14 @@
 # Scientific Review Writer Skill
 
-Private iteration repository for the `scientific-review-writer` Codex skill.
+Private release repository for the `scientific-review-writer` Codex skill.
 
 This repository is the generalized successor to the original local review-writing skill. It is no longer limited to plant science. The skill now targets scientific review manuscripts across disciplines, with English as the default output language.
 
 ## Current Status
 
-- Repository state: private iteration.
-- Public release version: not assigned.
-- Target public release tag: `v1.0.0`, only after manual approval.
+- Repository state: private `v1.0.0` release package.
+- Release version: `v1.0.0`.
+- Public visibility: not changed by this release package.
 - License intent: non-commercial use with attribution, within lawful and ethical research use.
 
 ## What Changed
@@ -56,12 +56,12 @@ Package locally for Codex testing:
 python <skill-creator>/scripts/package_skill.py scientific-review-writer dist
 ```
 
-## Public Release Checklist
+## Visibility Checklist
 
-Before changing this repository to public:
+Before changing this repository visibility to public:
 
 - Confirm the demo manuscript and generated figures may be shared.
 - Confirm references are normalized to the chosen target style.
 - Confirm no local paths, account names, credentials, raw full texts, or private project notes remain.
 - Run the validation script and the skill quick validator.
-- Create a clean `v1.0.0` tag only after approval.
+- Confirm the existing `v1.0.0` tag points to the approved release commit.

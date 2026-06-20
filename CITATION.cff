@@ -3,8 +3,7 @@ title: Scientific Review Writer Skill
 message: Cite this repository if you use the skill in non-commercial research or teaching.
 type: software
 license: CC-BY-NC-4.0
-version: 0.1.0-private
+version: 1.0.0
 repository-code: https://github.com/xiaojiang9945/scientific-review-writer-skill
 authors:
   - name: Repository owner
-

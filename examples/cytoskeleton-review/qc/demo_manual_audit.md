@@ -11,7 +11,7 @@ Reviewed `examples/cytoskeleton-review/output/cytoskeleton_review_demo.md` for t
 - Title is concise and topic-forward: 13 words.
 - Abstract is in the expected range: 178 words.
 - Keywords are present: 8 terms.
-- Body length is within the 6,000-9,000 word target for 5-8 theme reviews: 6,649 counted words by repository validator.
+- Body length is within the 6,000-9,000 word target for 5-8 theme reviews: 6,610 counted words by repository validator.
 - Theme map has 8 themes in the public QC file.
 - Figures: 6 linked figures, all repository-relative.
 - Captions: 6 captions, each placed below the figure.

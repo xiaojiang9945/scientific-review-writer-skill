@@ -22,6 +22,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--docx", required=True)
     ap.add_argument("--expect-figures", type=int, default=None)
+    ap.add_argument("--expect-tables", type=int, default=None)
     ap.add_argument("--min-references", type=int, default=None)
     args = ap.parse_args()
 
@@ -41,9 +42,16 @@ def main():
             image_paras += 1
 
     text = "\n\n".join(paras)
-    refs = [p for p in paras if re.match(r"^\d+\. ", p)]
+    try:
+        ref_start = paras.index("References")
+        ref_paras = paras[ref_start + 1 :]
+    except ValueError:
+        ref_paras = []
+    refs = [p for p in ref_paras if re.match(r"^\d+\. ", p)]
     fig_caps = [p for p in paras if re.match(r"^Figure \d+\. ", p)]
+    table_count = len(root.findall(".//w:tbl", NS))
     figures_ok = args.expect_figures is None or len(media) == args.expect_figures == len(fig_caps)
+    tables_ok = args.expect_tables is None or table_count == args.expect_tables
     refs_ok = args.min_references is None or len(refs) >= args.min_references
 
     citations = []
@@ -68,17 +76,19 @@ def main():
         "image_paragraphs": image_paras,
         "embedded_media": len(media),
         "figure_captions": len(fig_caps),
+        "tables": table_count,
         "references": len(refs),
         "citation_markers": len(re.findall(r"\[\d", body)),
         "first_citation_order_ok": seen == sorted(seen),
         "citation_reference_parity": set(citations) == set(ref_nums),
         "figures_ok": figures_ok,
+        "tables_ok": tables_ok,
         "references_ok": refs_ok,
         "has_outstanding_questions": "Outstanding Questions" in text,
         "has_keywords": "Keywords:" in text,
     }
     print(json.dumps(out, indent=2, ensure_ascii=False))
-    if not (figures_ok and refs_ok and out["first_citation_order_ok"] and out["citation_reference_parity"]):
+    if not (figures_ok and tables_ok and refs_ok and out["first_citation_order_ok"] and out["citation_reference_parity"]):
         raise SystemExit(1)
 
 

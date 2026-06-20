@@ -14,7 +14,7 @@ This QC record is sanitized for repository validation. It records quality checks
 
 - Language: English.
 - Abstract: 178 words by repository validator.
-- Body length before references: 6,649 words by repository validator.
+- Body length before references: 6,610 words by repository validator.
 - Figures: 6 linked figures.
 - References: 58.
 - Outstanding Questions: 8.
