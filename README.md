@@ -4,6 +4,12 @@ Public release repository for the `scientific-review-writer` Codex skill.
 
 This repository is the generalized successor to the original local review-writing skill. It is no longer limited to plant science. The skill now targets scientific review manuscripts across disciplines, with English as the default output language.
 
+<p align="center">
+  <img src="assets/graphical_abstract.png" alt="Scientific Review Writer graphical abstract" width="980">
+</p>
+
+The graphical abstract summarizes the skill's release workflow: full-text literature intake, theme distillation, evidence mapping, manuscript drafting, figure/table generation, and five-round quality control.
+
 ## Current Status
 
 - Repository state: public `v1.0.0` release.
